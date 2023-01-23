@@ -1,0 +1,14 @@
+name: SnowFireBall
+main: SnowFireBall\Main
+api: 4.12.0
+version: 1.0.0
+author: ZVEZDA2016
+commands:
+  snowball:
+    description: получить несколько огняных снежков
+    permission: snowball.use
+permissions:
+    snowball.use:
+      default: true
+      descriptions: огняные снежки для высших сериков
+  

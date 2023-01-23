@@ -1,0 +1,31 @@
+name: SetHome
+main: SetHome\Main
+version: 1.0.0
+api: 4.11.0
+author: ZVEZDA2016
+commands:
+  sethome:
+    description: Установить точку телепорта home
+    permission: sethome.use
+  delhome:
+    description: Установить точку телепорта home
+    permission: delhome.use
+  home:
+    description: Телепортироваться к точке home
+    permission: home.use
+  homelist:
+    description: просмотреть список своих точек home
+    permission: homelist.use
+permissions:
+  sethome.use:
+    default: true
+    description: все игроки могут создавать точку телепорта home
+  delhome.use:
+    default: true
+    description: все игроки могут удалять свою точку home
+  home.use:
+    default: true
+    description: все игроки могут телепортироваться к своей точке home
+  homelist.use:
+    default: true
+    description: все игроки могут просмотреть список своих точек home

@@ -1,0 +1,31 @@
+name: economition
+main: economition\Main
+api: 4.12.2
+version: 1.0.0
+author: ZVEZDA2016
+commands:
+  freepaper:
+    description: получить бумагу
+    permission: freepaper.use
+  mypaper:
+    description: проверить наличие своей бумаги
+    permission: mypaper.use
+  seepaper:
+    description: проверить наличие чужой бумаги
+    permission: seepaper.use
+  pay:
+    description: передать бумагу другому игроку
+    permission: pay.use 
+permissions:
+  freepaper.use: 
+    default: true
+    description: всем игрокам доступен запрос на получение бумаги
+  mypaper.use: 
+    default: true
+    description: всем игрокам доступен запрос на проверку наличия своей бумаги
+  seepaper.use:
+    default: true
+    description: всем игрокам доступен запрос на проверку наличие чужой бумаги
+  pay.use:
+    default: true
+    description: все игроки могут передавать свою бумагу между собой

@@ -1,0 +1,13 @@
+name: ClearChat
+main: ClearChat\Main
+api: 4.10.0
+version: 1.0.0
+author: ZVEZDA2016
+commands: 
+  cc: 
+    description: очистить чат
+    permission: cc.use
+permissions: 
+  cc.use:
+    desctiption: Право на использование команды /cc
+    default: true

@@ -1,0 +1,16 @@
+name: heal
+main: heal\Main
+api: 4.11.0
+version: 1.0.0
+author: ZVEZDA2016
+commands:
+  heal:
+    description: восстановить здоровье игрока
+    permission: heal.use
+permissions:
+  heal.use:
+    descriptions: отхилить себя
+    default: true 
+
+
+
